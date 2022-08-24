@@ -4,7 +4,7 @@
 <!-- Remotes -->
 
         <remote name="me"
-                fetch="https://github.com/newuserbtw />
+                fetch="https://github.com/newuserbtw" />
          
 <!-- Device Trees -->
     
