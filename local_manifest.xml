@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- Remotes -->
+
+        <remote name="me"
+                fetch="https://github.com/karann2354" />
+            
+<!-- Device Trees -->
+    
+        <project path="device/xiaomi/Mi439" name="device_xiaomi_Mi439" remote="me" revision="a12/master" />   
+        <project path="device/xiaomi/mithorium-common" name="device_xiaomi_mithorium-common" remote="me" revision="12.1" />
+    
+<!-- Kernel Tree -->
+    
+        <project path="kernel/xiaomi/sdm439" name="kernel_xiaomi_sdm439" remote="me" revision="12.1"  clone-depth="1" />
+           
+<!-- Vendor Trees -->
+    
+        <project path="vendor/xiaomi/Mi439"  name="vendor_xiaomi_Mi439" remote="me" revision="12.1"  /> 
+        <project path="vendor/xiaomi/mithorium-common"  name="vendor_xiaomi_mithorium-common" remote="me" revision="12.1" />
+    
+<!-- HALs -->
+
+        <remove-project name="android_hardware_qcom-caf_wlan" />
+
+	<project path="hardware/qcom-caf/wlan" name="msm8953_hals" remote="me" revision="wlan"/>
+	<project path="hardware/qcom-caf/msm8953/audio" name="msm8953_hals" remote="me" revision="audio"/>
+	<project path="hardware/qcom-caf/msm8953/media" name="msm8953_hals" remote="me" revision="media"/>
+	<project path="hardware/qcom-caf/msm8953/display" name="msm8953_hals" remote="me" revision="display"/>
+
+
+<!-- Patches -->
+
+        <remove-project name="vendor_yapp" />
+	<remove-project name="system_core" />
+
+	<project path="vendor/yapp" name="vendor_yapp" remote="me" revision="twelve" />
+        <project path="system/core" name="system_core" remote="me" revision="twelve" />
+	
+<!-- Extras -->
+
+	<remove-project name="android_packages_apps_FMRadio" />
+	<project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="me" revision="lineage-18.1" />
+
+	<project path="vendor/miuicamera" name="vendor_miuicamera" remote="me" revision="12.1" />
+
+	<remove-project name="android_device_qcom_sepolicy-legacy-um" />
+ 	<project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="me" revision="superior" />
+
+</manifest>
