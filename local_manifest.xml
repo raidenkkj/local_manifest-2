@@ -32,9 +32,7 @@
 
 <!-- Patches -->
 
-        <remove-project name="vendor_yapp" />
-	<remove-project name="system_core" />
-
+        
 	<project path="vendor/yapp" name="vendor_yapp" remote="me" revision="twelve" />
         <project path="system/core" name="system_core" remote="me" revision="twelve" />
 	
