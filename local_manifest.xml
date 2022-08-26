@@ -39,7 +39,7 @@
 	
 <!-- Extras -->
 
-	<project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="randomas" revision="lineage-18.1" />	
+	<project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="me" revision="lineage-18.1" />	
         <project path="vendor/miuicamera" name="vendor_miuicamera" remote="me" revision="12.1" />
 
 </manifest>
