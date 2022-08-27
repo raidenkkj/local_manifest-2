@@ -40,7 +40,7 @@
         <remove-project name="vendor_yaap"/>
         <remove-project name="system_core"/>
 
-	<project path="vendor/yapp" name="vendor_yapp" remote="me" revision="twelve" />
+	<project path="vendor/yaap" name="vendor_yaap" remote="me" revision="twelve" />
         <project path="system/core" name="system_core" remote="me" revision="twelve" />
 
 <!-- Extras -->
