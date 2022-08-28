@@ -32,9 +32,9 @@
         <remove-project name="hardware_qcom-caf_wlan" />
 
 	<project path="hardware/qcom-caf/wlan" name="msm8953_hals" remote="karan" revision="wlan"/>
-	<project path="hardware/qcom-caf/msm8996-R/audio" name="msm8953_hals" remote="karan" revision="audio"/>
-	<project path="hardware/qcom-caf/msm8996-R/media" name="msm8953_hals" remote="karan" revision="media"/>
-	<project path="hardware/qcom-caf/msm8996-R/display" name="msm8953_hals" remote="karan" revision="display"/>
+	<project path="hardware/qcom-caf/msm8953/audio" name="msm8953_hals" remote="karan" revision="audio"/>
+	<project path="hardware/qcom-caf/msm8953/media" name="msm8953_hals" remote="karan" revision="media"/>
+	<project path="hardware/qcom-caf/msm8953/display" name="msm8953_hals" remote="karan" revision="display"/>
 
 <!-- Vendor and Core -->
         <remove-project name="vendor_yaap"/>
