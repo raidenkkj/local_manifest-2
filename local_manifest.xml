@@ -11,6 +11,8 @@
                 fetch="https://github.com/mi-sdm439" />
         <remote name="los"
                 fetch="https://github.com/LineageOS" />
+	<remote name="org"
+		fetch="https://github.com/orgs/New-android-builder"/>
       
 
 <!-- Device Trees -->
@@ -32,16 +34,16 @@
         <remove-project name="hardware_qcom-caf_wlan" />
 
 	<project path="hardware/qcom-caf/wlan" name="msm8953_hals" remote="karan" revision="wlan"/>
-	<project path="hardware/qcom-caf/msm8953/audio" name="msm8953_hals" remote="karan" revision="audio"/>
-	<project path="hardware/qcom-caf/msm8953/media" name="msm8953_hals" remote="karan" revision="media"/>
-	<project path="hardware/qcom-caf/msm8953/display" name="msm8953_hals" remote="karan" revision="display"/>
+	<project path="hardware/qcom-caf/msm8996-R/audio" name="msm8953_hals" remote="karan" revision="audio"/>
+	<project path="hardware/qcom-caf/msm8996-R/media" name="msm8953_hals" remote="karan" revision="media"/>
+	<project path="hardware/qcom-caf/msm8996-R/display" name="msm8953_hals" remote="karan" revision="display"/>
 
 <!-- Vendor and Core -->
-        <remove-project name="vendor_yaap"/>
+        <remove-project name="vendor_derp"/>
         <remove-project name="system_core"/>
 
-	<project path="vendor/yaap" name="vendor_yaap" remote="me" revision="twelve" />
-        <project path="system/core" name="system_core" remote="me" revision="twelve" />
+	<project path="vendor/derp" name="vendor_derp" remote="org" revision="12.1" />
+        <project path="system/core" name="system_core" remote="org" revision="12.1" />
 
 <!-- Extras -->
 
