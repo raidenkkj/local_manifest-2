@@ -31,7 +31,7 @@
     
 <!-- HALs -->
 
-        <remove-project name="hardware_qcom-caf_wlan" />
+       
 
 	<project path="hardware/qcom-caf/wlan" name="msm8953_hals" remote="karan" revision="wlan"/>
 	<project path="hardware/qcom-caf/msm8996-R/audio" name="msm8953_hals" remote="karan" revision="audio"/>
