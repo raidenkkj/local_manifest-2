@@ -42,8 +42,8 @@
         <remove-project name="vendor_derp"/>
         <remove-project name="system_core"/>
 
-	<project path="vendor/derp" name="vendor_derp" remote="org" revision="12.1" />
-        <project path="system/core" name="system_core" remote="org" revision="12.1" />
+	<project path="vendor/derp" name="vendor_derp" remote="org" revision="twelve" />
+        <project path="system/core" name="system_core" remote="org" revision="twelve" />
 
 <!-- Extras -->
 
