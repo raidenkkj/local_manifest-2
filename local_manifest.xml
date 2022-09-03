@@ -46,8 +46,7 @@
         <project path="system/core" name="system_core" remote="me" revision="12.1" />
 
 <!-- Extras -->
-
-	<project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="me" revision="lineage-18.1" />	
+        
         <project path="vendor/miuicamera" name="vendor_miuicamera" remote="me" revision="12.1" />
 
 </manifest>
