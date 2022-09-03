@@ -8,7 +8,7 @@
         <remote name="karan"
                 fetch="https://github.com/karann2354" />
         <remote name="Mi"
-                fetch="https://github.com/Mi-Thorium" />
+                fetch="https://github.com/mi-sdm439" />
         <remote name="los"
                 fetch="https://github.com/LineageOS" />
 	<remote name="org"
@@ -24,7 +24,7 @@
     
 <!-- Kernel Tree -->
     
-        <project path="lolz/kernel/redmi8" name="lolz_kernel_redmi8" remote="lolz" revision="V20"  clone-depth="1" />
+        <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="Mi" revision="a12/main"  clone-depth="1" />
            
 <!-- Vendor Trees -->
     
