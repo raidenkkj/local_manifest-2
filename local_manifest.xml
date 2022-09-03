@@ -13,6 +13,8 @@
                 fetch="https://github.com/LineageOS" />
 	<remote name="org"
 		fetch="https://github.com/orgs/New-android-builder"/>
+        <remote name="lolz"
+                fetch="https://github.com/Jprimero15/lolz_kernel_redmi8"/>
       
 
 <!-- Device Trees -->
@@ -22,7 +24,7 @@
     
 <!-- Kernel Tree -->
     
-        <project path="kernel/xiaomi/sdm439" name="kernel_xiaomi_sdm439" remote="Mi" revision="a12/master"  clone-depth="1" />
+        <project path="lolz/kernel/redmi8" name="lolz_kernel_redmi8" remote="lolz" revision="V20"  clone-depth="1" />
            
 <!-- Vendor Trees -->
     
