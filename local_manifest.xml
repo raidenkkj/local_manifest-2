@@ -43,7 +43,7 @@
         <remove-project name="vendor_komodo"/>
         <remove-project name="system_core"/>
 
-	<project path="vendor/komodo name="vendor_komodo" remote="me" revision="12.1" />
+	<project path="vendor/komodo" name="vendor_komodo" remote="me" revision="12.1" />
         <project path="system/core" name="system_core" remote="me" revision="12.1" />
 
 <!-- Extras -->
