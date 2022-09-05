@@ -40,10 +40,10 @@
 	<project path="hardware/qcom-caf/msm8996-R/media" name="msm8953_hals" remote="me" revision="media"/>
 	<project path="hardware/qcom-caf/msm8996-R/display" name="msm8953_hals" remote="me" revision="display"/>
 <!-- Vendor and Core -->
-        <remove-project name="vendor_derp"/>
+        <remove-project name="vendor_komodo"/>
         <remove-project name="system_core"/>
 
-	<project path="vendor/derp" name="vendor_derp" remote="me" revision="12.1" />
+	<project path="vendor/komodo name="vendor_komodo" remote="me" revision="12.1" />
         <project path="system/core" name="system_core" remote="me" revision="12.1" />
 
 <!-- Extras -->
