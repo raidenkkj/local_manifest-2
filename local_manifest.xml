@@ -43,8 +43,8 @@
         <remove-project name="vendor_kscope"/>
         <remove-project name="system_core"/>
 
-	<project path="vendor/kscope" name="vendor_kscope" remote="me" revision="sunflowerleaf" />
-        <project path="system/core" name="system_core" remote="me" revision="sunflowerleaf" />
+	<project path="vendor/kscope" name="android_vendor_kscope" remote="me" revision="sunflowerleaf" />
+        <project path="system/core" name="android_system_core" remote="me" revision="sunflowerleaf" />
 
 <!-- Extras -->
         
