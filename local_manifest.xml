@@ -15,6 +15,7 @@
 		fetch="https://github.com/orgs/New-android-builder"/>
         <remote name="lolz"
                 fetch="https://github.com/Jprimero15/lolz_kernel_redmi8"/>
+	
       
 
 <!-- Device Trees -->
@@ -47,7 +48,7 @@
         <project path="system/core" name="android_system_core" remote="me" revision="twelve-L" />
 
 <!-- Extras -->
-        
+        <project path="vendor/lawnchair" name="vendor_lawnchair" remote="karan" revision="12.1"/>
        
 
 </manifest>
