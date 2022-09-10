@@ -12,11 +12,9 @@
         <remote name="los"
                 fetch="https://github.com/LineageOS" />
 	<remote name="org"
-		fetch="https://github.com/orgs/New-android-builder"/>
+		fetch="https://github.com/orgs/New-android-builder" />
         <remote name="lolz"
-                fetch="https://github.com/Jprimero15/lolz_kernel_redmi8"/>
-	
-      
+                fetch="https://github.com/Jprimero15/lolz_kernel_redmi8" />
 
 <!-- Device Trees -->
     
@@ -29,26 +27,32 @@
            
 <!-- Vendor Trees -->
     
-        <project path="vendor/xiaomi/Mi439"  name="vendor_xiaomi_Mi439" remote="karan" revision="12.1"  /> 
-        <project path="vendor/xiaomi/mithorium-common"  name="vendor_xiaomi_mithorium-common" remote="karan" revision="12.1" />
+        <project path="vendor/xiaomi/Mi439" name="vendor_xiaomi_Mi439" remote="karan" revision="12.1"  /> 
+        <project path="vendor/xiaomi/mithorium-common" name="vendor_xiaomi_mithorium-common" remote="karan" revision="12.1" />
     
-<!-- HALs -->
+<!-- Removal of HALs -->
 
-       
-        <remove-project name="android_hardware_qcom_wlan"/>
-	<project path="hardware/qcom-caf/wlan" name="msm8953_hals" remote="me" revision="wlan"/>
-	<project path="hardware/qcom-caf/msm8996-R/audio" name="msm8953_hals" remote="me" revision="audio"/>
-	<project path="hardware/qcom-caf/msm8996-R/media" name="msm8953_hals" remote="me" revision="media"/>
-	<project path="hardware/qcom-caf/msm8996-R/display" name="msm8953_hals" remote="me" revision="display"/>
+        <remove-project name="android_hardware_qcom_wlan" />
+        <remove-project name="android_hardware_qcom_audio" />
+        <remove-project name="android_hardware_qcom_media" />
+        <remove-project name="android_hardware_qcom_display" />
+
+<!-- Adding HALs -->
+
+	<project path="hardware/qcom-caf/wlan" name="msm8953_hals" remote="me" revision="wlan" />
+	<project path="hardware/qcom-caf/msm8996-R/audio" name="msm8953_hals" remote="me" revision="audio" />
+	<project path="hardware/qcom-caf/msm8996-R/media" name="msm8953_hals" remote="me" revision="media" />
+	<project path="hardware/qcom-caf/msm8996-R/display" name="msm8953_hals" remote="me" revision="display" />
+
 <!-- Vendor and Core -->
-        <remove-project name="android_vendor_cipher"/>
-        <remove-project name="android_system_core"/>
 
+        <remove-project name="android_vendor_cipher" />
+        <remove-project name="android_system_core" />
 	<project path="vendor/cipher" name="android_vendor_kscope" remote="me" revision="twelve-L" />
         <project path="system/core" name="android_system_core" remote="me" revision="twelve-L" />
 
 <!-- Extras -->
-        <project path="vendor/lawnchair" name="vendor_lawnchair" remote="karan" revision="12.1"/>
-       
 
+        <project path="vendor/lawnchair" name="vendor_lawnchair" remote="karan" revision="12.1"/>
+ 
 </manifest>
